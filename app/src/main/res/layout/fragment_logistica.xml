@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="Logistica"
+        android:text="Operaciones"
         android:textSize="35sp"
         android:textStyle="bold"
         android:layout_marginTop="66dp"
@@ -26,7 +26,7 @@
         android:id="@+id/InsertButtom"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Agregar Orden de Trabajo"
+        android:text="Picking de Productos"
         app:layout_constraintTop_toBottomOf="@+id/textViewLogin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,22 +37,13 @@
         android:id="@+id/modificarButtom"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Modificar Orden de Trabajo"
+        android:text="Consulta de Productos"
         app:layout_constraintTop_toBottomOf="@+id/InsertButtom"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"
         app:icon="@drawable/baseline_login_24"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/StatusButtom"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Status Orden de Trabajo"
-        app:layout_constraintTop_toBottomOf="@+id/modificarButtom"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"
-        app:icon="@drawable/baseline_login_24"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
