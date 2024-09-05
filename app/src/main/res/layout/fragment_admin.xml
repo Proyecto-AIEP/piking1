@@ -26,7 +26,7 @@
         android:id="@+id/AgregarButtom"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Agregar Nuevo Colaborador"
+        android:text="Agregar Colaborador"
         app:layout_constraintTop_toBottomOf="@+id/textViewAdmin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
