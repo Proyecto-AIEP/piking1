@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_stock"
+        android:title="Stock"
+        android:icon="@drawable/baseline_local_activity_24"/>.
+
+    <item
+        android:id="@+id/nav_soporte"
+        android:title="Soporte"
+        android:icon="@drawable/baseline_support_agent_24"/>
+
+</menu>

@@ -21,7 +21,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#00FF00"
+            android:background="#29B6F6"
             app:menu="@menu/menu_toolbar" />
     </com.google.android.material.appbar.AppBarLayout>
 

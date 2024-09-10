@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_estadistica"
+        android:title="Estadisticas"
+        android:icon="@drawable/baseline_query_stats_24"/>
+
+    <item
+    android:id="@+id/nav_operacion"
+    android:title="Operaciones"
+    android:icon="@drawable/baseline_local_activity_24"/>.
+
+    <item
+    android:id="@+id/nav_soporte"
+    android:title="Soporte"
+    android:icon="@drawable/baseline_support_agent_24"/>
+
+</menu>

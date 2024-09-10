@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="Operaciones"
+        android:text="Logistica"
         android:textSize="35sp"
         android:textStyle="bold"
         android:layout_marginTop="66dp"
@@ -43,6 +43,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"
         app:icon="@drawable/baseline_login_24"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        app:menu="@menu/bottom_menu_logistica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 
 

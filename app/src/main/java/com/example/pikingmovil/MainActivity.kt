@@ -42,9 +42,9 @@ class MainActivity : AppCompatActivity() {
                     supportActionBar?.title = "Administrador"
                     supportActionBar?.setDisplayHomeAsUpEnabled(true)
                 }
-                R.id.loginFragment ->{
-                    supportActionBar?.title ="Homeapp"
-                }
+        //        R.id.loginFragment ->{
+        //            supportActionBar?.title ="Homeapp"
+        //        }
                 else -> {
                     supportActionBar?.title = "login"
                     supportActionBar?.setDisplayHomeAsUpEnabled(false)
